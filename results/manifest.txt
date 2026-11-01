@@ -1,0 +1,10 @@
+DATA MANIFEST (fill files on disk)
+calendar range 2023-09-01 to 2023-10-30: 60 days
+  symbol  days      first       last  missing   tick  fills_valid_quote  fills_at_touch
+ASTRUSDT    60 2023-09-01 2023-10-30        0  1e-05            2245111         1700446
+ KEYUSDT    60 2023-09-01 2023-10-30        0  1e-06            2672971         1882856
+ MTLUSDT    60 2023-09-01 2023-10-30        0 0.0001            5685625         3305281
+RNDRUSDT    60 2023-09-01 2023-10-30        0 0.0001            6807978         3916270
+ WOOUSDT    60 2023-09-01 2023-10-30        0  1e-05            3409300         2042694
+
+fill-file columns: t_ms, hour, price, qty, s, spread_ticks, bid_qty, ask_qty, depth_touch, m0, tick, T, ES, m1, RS1, PI1, m10, RS10, PI10, rv60
